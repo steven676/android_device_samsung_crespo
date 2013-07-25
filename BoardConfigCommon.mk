@@ -39,7 +39,7 @@ TARGET_ARCH := arm
 
 # Enable NEON feature
 TARGET_ARCH_VARIANT := armv7-a-neon
-ARCH_ARM_HAVE_TLS_REGISTER := true
+TARGET_CPU_VARIANT := cortex-a8
 
 # USE_CAMERA_STUB := true
 # ifeq ($(USE_CAMERA_STUB),false)
