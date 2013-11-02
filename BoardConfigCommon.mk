@@ -91,4 +91,6 @@ USE_OPENGL_RENDERER	:= true
 # would hurt performance significantly (see b/6016711)
 TARGET_DISABLE_TRIPLE_BUFFERING := false
 
+TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
+
 BOARD_ALLOW_EGL_HIBERNATION := true
