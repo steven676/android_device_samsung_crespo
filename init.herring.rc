@@ -37,7 +37,7 @@ on fs
     mount_all /fstab.herring
 
     export EXTERNAL_STORAGE /storage/sdcard0
-    mkdir /storage 0050 system sdcard_r
+    mkdir /storage 0751 root sdcard_r
     mkdir /storage/sdcard0 0000 system system
     mkdir /mnt/media_rw/sdcard0 0000 system system
     symlink /storage/sdcard0 /sdcard
